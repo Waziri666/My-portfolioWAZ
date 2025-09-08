@@ -317,7 +317,7 @@ const Summary = () => {
   const canGoNext = currentPage < totalPages - 1;
 
   return (
-    <section id="work">
+    <section id="work" className="md:pt-32">
       <div className="max-w-6xl mx-auto p-4 grid-container">
         {/* Book Container */}
         <div className="relative  bg-black-200 rounded-2xl shadow-[var(--shadow-book)] overflow-hidden">
@@ -405,11 +405,11 @@ const Summary = () => {
           </div>
 
           {/* Navigation Controls */}
-          <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex items-center gap-4 text-white">
+          <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex items-center gap-6 text-white mb-0">
             <button
               onClick={() => handlePageChange("prev")}
               disabled={!canGoPrev || isAnimating}
-              className={`p-3 rounded-full transition-all duration-300 ${
+              className={`p-3 rounded-full transition-all duration-300  ${
                 canGoPrev && !isAnimating
                   ? "bg-black-500 text-white hover:shadow-lg hover:scale-110"
                   : "bg-book-border  cursor-not-allowed"
