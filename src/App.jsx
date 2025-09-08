@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./sections/navbar";
+import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Summary from "./sections/Summary";
 import About from "./sections/About";
