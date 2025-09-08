@@ -45,7 +45,7 @@ const Contact = () => {
           alt="background"
           className="absolute inset-0 min-h-screen"
         />
-        <div className="contact-container">
+        <div className="contact-container ">
           <h3 className="head-text">Lets Talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Are you looking to build your website, improve your existing
