@@ -85,61 +85,23 @@ const Summary = () => {
       ),
       content: (
         <div className="space-y-6">
-          <div className="border-l-4 border-primary pl-4 space-y-4">
-            <div>
-              <div className="flex items-center gap-2 mb-2">
-                <Briefcase className="w-5 h-5 text-white" />
-                <h3 className="text-lg font-semibold grid-headtext">
-                  Webdesign
-                </h3>
-              </div>
-              <p className="grid-subtext font-medium mb-1">Freelance</p>
-              <div className="flex items-center gap-4 text-sm grid-subtext mb-3">
-                <span className="flex items-center gap-1">
-                  <Calendar className="w-4 h-4" />
-                  2024
-                </span>
-                <span className="flex items-center gap-1">
-                  <MapPin className="w-4 h-4" />
-                  Remote
-                </span>
-              </div>
-              <ul className="text-sm grid-subtext space-y-1">
-                <li>
-                  • Designed and developed a modern website for a
-                  Ghanaian-Japanese fusion restaurant, implementing a sleek UI
-                  with smooth animations for interactivity.
-                </li>
-                <li>
-                  • Enhanced user experience through responsive layouts and
-                  engaging visuals, leading to a 59% increase in average session
-                  duration.
-                </li>
-                <li>
-                  • Mentored 5 students to start coding and conducted code
-                  reviews
-                </li>
-              </ul>
-            </div>
-          </div>
-
           <div className="border-l-4 pl-4 space-y-4">
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <Briefcase className="w-5 h-5 text-accent text-white" />
                 <h3 className="text-lg text-white font-semibold text-book-text-primary">
-                  Junior Frontend Developer
+                  Senior Frontend Developer
                 </h3>
               </div>
               <p className="grid-subtext font-medium mb-1">Web developer</p>
               <div className="flex items-center gap-4 text-sm grid-subtext mb-3">
                 <span className="flex items-center gap-1 grid-subtext">
                   <Calendar className="w-4 h-4" />
-                  2024 - 2025 early
+                  2025 - Present
                 </span>
                 <span className="flex items-center gap-1 grid-subtext">
                   <MapPin className="w-4 h-4" />
-                  SDA pharmacy, Madina
+                  Colarodo, USA
                 </span>
               </div>
               <ul className="text-sm grid-subtext space-y-1">
@@ -151,6 +113,51 @@ const Summary = () => {
                   40%
                 </li>
                 <li>• Collaborated with UX/UI team on user-centered design</li>
+                <li className="text-blue-600">
+                  {" "}
+                  <a href="https://youtu.be/M1J0MmBVIxA">• View Project</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-l-4 border-primary pl-4 space-y-4">
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <Briefcase className="w-5 h-5 text-white" />
+                <h3 className="text-lg font-semibold grid-headtext">
+                  Front End
+                </h3>
+              </div>
+              <p className="grid-subtext font-medium mb-1">Start Up</p>
+              <div className="flex items-center gap-4 text-sm grid-subtext mb-3">
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  2024 - Present
+                </span>
+                <span className="flex items-center gap-1">
+                  <MapPin className="w-4 h-4" />
+                  Remote
+                </span>
+              </div>
+              <ul className="text-sm grid-subtext space-y-1">
+                <li>
+                  • Developed the user interface with React and Tailwind CSS for
+                  responsive, real-time visualization.
+                </li>
+                <li>
+                  • Implemented secure data handling and dynamic chart rendering
+                </li>
+                <li>
+                  • Designed the layout to clearly present system metrics and
+                  anomaly trends.
+                </li>
+                <li>
+                  • Collaborated with backend and data science components to
+                  connect live detection results.
+                </li>
+                <li className="text-blue-600">
+                  <a href="https://youtu.be/S3W5GG2Imkc">• View Project</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -244,8 +251,8 @@ const Summary = () => {
                 Cybersecurity Solutions
               </h3>
               <p className="text-sm text-book-text-secondary mb-3">
-                Full-frontend web applications using modern frameworks and best
-                practices.
+                Developing secure, modern web applications that follow best
+                practices in both design and cybersecurity.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="text-xs bg-primary/20 text-primary px-2 py-1 rounded">

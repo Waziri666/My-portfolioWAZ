@@ -62,7 +62,9 @@ const Hero = () => {
         <p className="sm:text-2xl text-3xl font-medium text-white text-center font-generalsans">
           Hi, I am Taufic <span className="waving-hand">👋🏾</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Build Products & Brands</p>
+        <p className="hero_tag text-gray_gradient">
+          Frontend Meets Cybersecurity
+        </p>
       </div>
       <div className="w-full h-full absolute inset-0">
         {/* <Leva /> */}

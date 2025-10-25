@@ -25,8 +25,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I am Taufic</p>
               <p className="grid-subtext">
-                With 1+ years of experience, I have builded my skills in
-                frontend development, with the focus on Web Developer
+                With 3+ years of experience, I combine my experience in frontend
+                development with a focus on building secure, user-friendly web
+                applications.
               </p>
             </div>
           </div>
@@ -44,8 +45,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in Javascript with a focus on react and Tailwind
-                css ecosystem, My Tech Stack is React, Python, threejs
+                I work mainly with JavaScript, using React and Tailwind CSS to
+                create modern interfaces. I also use Python and Three.js,
+                bringing a security-first mindset to every project.
               </p>
             </div>
           </div>
@@ -78,8 +80,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">My passion for coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code, coding
-                isnt just my profession but my passion
+                I love solving problems and bringing ideas to life through code.
+                My passion lies in creating seamless frontend experiences and
+                building secure, reliable systems.
               </p>
             </div>
           </div>
