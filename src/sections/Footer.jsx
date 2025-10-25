@@ -5,24 +5,28 @@ const Footer = () => {
         <p>Terms & Condition</p>
         <p>|</p>
       </div>
-      <div className="flex gap-3">
-        <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-          <a href=""></a>
+      <div className="flex justify-center items-center gap-3">
+        <div className="social-icon flex justify-center items-center">
+          <a
+            href="https://github.com/Waziri666"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/github.svg" alt="GitHub" className="w-8 h-8" />
+          </a>
         </div>
-        <div className="social-icon">
-          <img
-            src="/assets/twitter.svg"
-            alt="twitter"
-            className="w-1/2 h-1/2"
-          />
-          <a href=""></a>
+
+        <div className="social-icon flex justify-center items-center">
+          <a
+            href="https://x.com/waziridev?s=21"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/twitter.svg" alt="Twitter" className="w-8 h-8" />
+          </a>
         </div>
-        {/* <div className="social-icon">
-          <img src="/assets/linkdln.svg" alt="github" className="w-1/2 h-1/2" />
-          <a href=""></a>
-        </div> */}
       </div>
+
       <p className="text-white-500">2024 Waziri, All rights reserved.</p>
     </section>
   );
