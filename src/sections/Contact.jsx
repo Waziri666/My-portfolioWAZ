@@ -26,7 +26,7 @@ const Contact = () => {
           to_email: "tauficabdallahwaziri@gmail.com",
           message: form.message,
         },
-        "fTfUa3IF_mRYBH4BF"
+        "fTfUa3IF_mRYBH4BF",
       );
       setLoading(false);
       alert("Your message has been sent");

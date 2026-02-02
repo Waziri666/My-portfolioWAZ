@@ -18,16 +18,16 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/grid1.png"
+              src="/assets/MyPic.jpeg"
               alt="grid-1"
               className="w-full sm:h-[276] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">Hi, I am Taufic</p>
+              <p className="grid-headtext">Hi, I’m Taufic</p>
               <p className="grid-subtext">
-                With 3+ years of experience, I combine my experience in frontend
-                development with a focus on building secure, user-friendly web
-                applications.
+                My background spans cybersecurity, software engineering, and
+                applied research, with work in vulnerability management, threat
+                detection, and anomaly analysis for real-world systems.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I work mainly with JavaScript, using React and Tailwind CSS to
-                create modern interfaces. I also use Python and Three.js,
-                bringing a security-first mindset to every project.
+                Java, Spring Boot, Python, JavaScript (React, Tailwind CSS) –
+                used to build secure, scalable applications with a
+                security-first mindset.
               </p>
             </div>
           </div>

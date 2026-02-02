@@ -30,7 +30,7 @@ const Summary = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/TauficAbdallahWaziriResume.pdf";
+    link.href = "/TauficAbdallahWaziriCV.pdf";
     link.download = "Taufic's_cv.pdf";
     link.click();
   };
@@ -48,18 +48,18 @@ const Summary = () => {
               <span className="text-2xl font-bold ">WT</span>
             </div>
             <h2 className="text-2xl font-bold  mb-2 text-white">
-              Waziri Taufic Abdallah
+              Taufic Abdallah Waziri
             </h2>
             <p className="text-book-text-secondary font-medium grid-subtext ">
-              FrontEnd Developer
+              Software Developer & Cybersecurity
             </p>
           </div>
 
           <div className="space-y-4 bg-black-200">
             <p className="grid-subtext">
-              Passionate frontend developer with 1+ years of experience creating
-              innovative web solutions. I specialize in React, Tailwind css, and
-              modern web technologies.
+              Passionate Secure Software developement with 2+ years of
+              experience creating innovative web solutions. I specialize in
+              Backend, Security, and AI technologies.
             </p>
             <p className="grid-subtext">
               I'm driven by the challenge of solving complex problems and
@@ -90,7 +90,7 @@ const Summary = () => {
               <div className="flex items-center gap-2 mb-2">
                 <Briefcase className="w-5 h-5 text-accent text-white" />
                 <h3 className="text-lg text-white font-semibold text-book-text-primary">
-                  Senior Frontend Developer
+                  Frontend Developer
                 </h3>
               </div>
               <p className="grid-subtext font-medium mb-1">Web developer</p>
@@ -125,10 +125,12 @@ const Summary = () => {
               <div className="flex items-center gap-2 mb-2">
                 <Briefcase className="w-5 h-5 text-white" />
                 <h3 className="text-lg font-semibold grid-headtext">
-                  Front End
+                  Final Year Project
                 </h3>
               </div>
-              <p className="grid-subtext font-medium mb-1">Start Up</p>
+              <p className="grid-subtext font-medium mb-1">
+                Anomaly Detection - Start Up
+              </p>
               <div className="flex items-center gap-4 text-sm grid-subtext mb-3">
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
@@ -141,19 +143,20 @@ const Summary = () => {
               </div>
               <ul className="text-sm grid-subtext space-y-1">
                 <li>
-                  • Developed the user interface with React and Tailwind CSS for
-                  responsive, real-time visualization.
+                  • Built an interactive UI with React & Tailwind CSS for
+                  real-time monitoring.
                 </li>
                 <li>
-                  • Implemented secure data handling and dynamic chart rendering
+                  • Implemented secure log handling and anomaly detection
+                  visualization.
                 </li>
                 <li>
-                  • Designed the layout to clearly present system metrics and
-                  anomaly trends.
+                  • Designed dashboards to highlight system metrics and attack
+                  patternss.
                 </li>
                 <li>
-                  • Collaborated with backend and data science components to
-                  connect live detection results.
+                  • Built with backend and data science components to connect
+                  live detection results.
                 </li>
                 <li className="text-blue-600">
                   <a href="https://youtu.be/S3W5GG2Imkc">• View Project</a>
@@ -227,13 +230,25 @@ const Summary = () => {
                 <span className="text-book-text-primary">
                   CEH, Certified Ethical Hacking
                 </span>
-                <span className="text-sm">about to take</span>
+                <span className="text-sm">Preparing</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-book-text-primary">
                   Front-End Development
                 </span>
                 <span className="text-book-text-secondary">Udemy</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-book-text-primary">
+                  Python Data Science, Unsupervised learning
+                </span>
+                <span className="text-book-text-secondary">Udemy</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-book-text-primary">
+                  Practical Ethical Hacking
+                </span>
+                <span className="text-book-text-secondary">TCM Security</span>
               </div>
             </div>
           </div>
@@ -269,10 +284,10 @@ const Summary = () => {
 
             <div className="bg-gradient-to-r grid-subtext rounded-lg p-4 border border-accent/20">
               <h3 className="font-semibold text-book-text-primary mb-2">
-                Web Development
+                Software Development
               </h3>
               <p className="text-sm text-book-text-secondary mb-3">
-                Cross-platform web applications with React performance.
+                Cross-platform web applications.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">
@@ -282,7 +297,26 @@ const Summary = () => {
                   Tailwind
                 </span>
                 <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">
-                  Three js
+                  Java
+                </span>
+                <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">
+                  SpringBoot
+                </span>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r grid-subtext rounded-lg p-4 border border-accent/20">
+              <h3 className="font-semibold text-book-text-primary mb-2">
+                Pentesting
+              </h3>
+              <p className="text-sm text-book-text-secondary mb-3">
+                Web Application Hacking.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">
+                  Python
+                </span>
+                <span className="text-xs bg-accent/20 text-accent px-2 py-1 rounded">
+                  Burp-suit
                 </span>
               </div>
             </div>
@@ -379,10 +413,11 @@ const Summary = () => {
                         </p>
                       </div>
                       <div>
-                        <button className="bg-black-500 grid-subtext flex rounded-xl p-2 mt-5 text-white hover:shadow-lg hover:scale-110">
-                          <a href="#contact"></a>
-                          Lets Work
-                        </button>
+                        <a href="#contact">
+                          <button className="bg-black-500 grid-subtext flex rounded-xl p-2 mt-5 text-white hover:shadow-lg hover:scale-110">
+                            Lets Work
+                          </button>{" "}
+                        </a>
                       </div>
                     </div>
                   )}
@@ -412,11 +447,11 @@ const Summary = () => {
           </div>
 
           {/* Navigation Controls */}
-          <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex items-center gap-6 text-white mb-0">
+          <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex items-center gap-6 text-white -mb-3">
             <button
               onClick={() => handlePageChange("prev")}
               disabled={!canGoPrev || isAnimating}
-              className={`p-3 rounded-full transition-all duration-300  ${
+              className={`p-3 rounded-full transition-all duration-300 mt-15 ${
                 canGoPrev && !isAnimating
                   ? "bg-black-500 text-white hover:shadow-lg hover:scale-110"
                   : "bg-book-border  cursor-not-allowed"
@@ -426,7 +461,7 @@ const Summary = () => {
             </button>
 
             {/* Page Indicators */}
-            <div className="flex gap-2">
+            <div className="flex gap-2 ">
               {Array.from({ length: totalPages }, (_, i) => (
                 <div
                   key={i}
@@ -439,7 +474,7 @@ const Summary = () => {
             <button
               onClick={() => handlePageChange("next")}
               disabled={!canGoNext || isAnimating}
-              className={`p-3 rounded-full transition-all duration-300 ${
+              className={`p-3 rounded-full transition-all duration-300   ${
                 canGoNext && !isAnimating
                   ? "bg-black-500 text-white hover:shadow-lg hover:scale-110"
                   : "bg-book-border text-white cursor-not-allowed"
